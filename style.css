@@ -96,3 +96,22 @@ body{
 .ampm{
     color: orange;
 }
+
+@media (max-width: 480px){
+    .container{
+        width: 325px;
+        padding: 10px 25px;
+}
+.hour{
+    font-size: 5.5rem;
+}
+.min{
+    font-size: 3.9rem;
+}
+.sec, .ampm{
+    font-size: 1.2rem;
+}
+.colon{
+    font-size: 4.5rem;
+}
+}
