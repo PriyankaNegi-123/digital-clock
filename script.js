@@ -9,7 +9,7 @@ function clock(){
     let h = new Date().getHours();
     let m = new Date().getMinutes();
     let s = new Date().getSeconds();
-    let ampm = (h>12)? "pm" : "am";
+    let ampm = (h>=12)? "pm" : "am";
 
     if(h>12){
         h = h - 12;
